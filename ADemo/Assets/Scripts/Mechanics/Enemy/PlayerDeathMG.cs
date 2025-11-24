@@ -14,6 +14,8 @@ public class PlayerDeathMG : MonoBehaviour
     public void killPlayer()
     {
         DeathUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
      public GameObject EnemyObject;
     private void OnTriggerEnter(Collider collision)

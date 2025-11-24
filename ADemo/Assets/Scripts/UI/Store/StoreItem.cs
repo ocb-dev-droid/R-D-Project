@@ -5,6 +5,7 @@ public class StoreItem : MonoBehaviour
     public string ItemType;
     public string ItemName;
     public int ItemPrice;
+    public int ItemID;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
