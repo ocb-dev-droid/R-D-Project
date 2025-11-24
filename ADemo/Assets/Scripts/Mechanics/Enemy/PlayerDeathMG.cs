@@ -1,5 +1,5 @@
+using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 
 public class PlayerDeathMG : MonoBehaviour
@@ -14,7 +14,6 @@ public class PlayerDeathMG : MonoBehaviour
     public void killPlayer()
     {
         DeathUI.SetActive(true);
-        Pointer.
     }
      public GameObject EnemyObject;
     private void OnTriggerEnter(Collider collision)
