@@ -11,6 +11,7 @@ public class LimboUI : MonoBehaviour
 
     public void ReviveButton()
     {
+        currentStage = SceneManager.GetActiveScene ().name;
         SceneManager.LoadScene(currentStage);
     }
 
