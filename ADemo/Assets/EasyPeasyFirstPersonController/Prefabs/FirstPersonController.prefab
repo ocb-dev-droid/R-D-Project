@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 9156347144040445545}
   - component: {fileID: 9156347144040445544}
   - component: {fileID: 1118371570920983367}
+  - component: {fileID: -835420187434645231}
   m_Layer: 2
   m_Name: FirstPersonController
   m_TagString: Untagged
@@ -214,8 +215,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b6fe8a87db414f4fa3853f1f32eb5b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 6695761705752444453, guid: 44fabfee80205f74f8e6b12eacc22497, type: 3}
+  DeathUI: {fileID: 0}
   EnemyObject: {fileID: 0}
+--- !u!114 &-835420187434645231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9156347144040445547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0d8017d944b8b4e872ff4a36938751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 0}
+  bulletSpawn: {fileID: 0}
 --- !u!1 &9156347144365898844
 GameObject:
   m_ObjectHideFlags: 0
