@@ -291,7 +291,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -475, y: 174}
+  m_AnchoredPosition: {x: -463, y: -205}
   m_SizeDelta: {x: 109.3914, y: 40.1597}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &121505214
@@ -976,7 +976,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -391.4768, y: -68.85861}
+  m_AnchoredPosition: {x: -323, y: -68.85861}
   m_SizeDelta: {x: 160, y: 254.9016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &446176505
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemType: Upgrade
-  ItemName: 
+  ItemName: u1
   ItemPrice: 0
   ItemID: 0
 --- !u!1 &477013874
@@ -1642,7 +1642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193, y: -68.85861}
+  m_AnchoredPosition: {x: -143, y: -68.85861}
   m_SizeDelta: {x: 160, y: 254.9016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &564896818
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ItemType: Upgrade
-  ItemName: 
+  ItemName: u2
   ItemPrice: 0
   ItemID: 0
 --- !u!114 &564896819
@@ -2242,7 +2242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -215, y: 435}
+  m_AnchoredPosition: {x: -183, y: 435}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &834969251
@@ -4641,7 +4641,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -336.1346, y: 465}
+  m_AnchoredPosition: {x: -321, y: 465}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1835120385
