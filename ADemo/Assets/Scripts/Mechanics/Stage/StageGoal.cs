@@ -5,6 +5,8 @@ public class StageGoal : MonoBehaviour
 {
     private void OnTriggerEnter(Collider collision)
     {
-        SceneManager.LoadScene("LVLComplete");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        SceneManager.LoadScene("LevelComplete");
     }
 }
