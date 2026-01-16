@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Levels/Tutorial/TutorialStage.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI/Limbo.unity
     guid: 8601c1be0fae9c0488c1b75bbf9d563c
   - enabled: 1
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/MainHub/Store.unity
     guid: 92c92367312e4a24790b25f736fc7ac7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI/LVLComplete.unity
     guid: 3bb5b3ba1f8de00428ae15778f909300
   m_configObjects:
