@@ -7,6 +7,7 @@ public class PauseMenu : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
         PauseUI.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -15,8 +16,10 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Input.GetKeyDown(KeyCode.Escape);
-
+       if(Input.GetKeyDown(KeyCode.Escape));
+        {
+            PauseGame();
+        }
     }
 
     public void PauseGame()
