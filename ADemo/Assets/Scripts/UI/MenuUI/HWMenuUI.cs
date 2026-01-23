@@ -16,4 +16,10 @@ public class HWMenuUI : MonoBehaviour
     {
         SceneManager.LoadScene("Store");
     }
+    
+    public void AdventureModeButton()
+    {
+        SceneManager.LoadScene("LevelSelect");
+
+    }
 }

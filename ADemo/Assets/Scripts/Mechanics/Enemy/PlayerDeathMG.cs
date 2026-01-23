@@ -11,7 +11,7 @@ public class PlayerDeathMG : MonoBehaviour
         DeathUI.SetActive(false);
     }
    
-    public void killPlayer()
+    public void KillPlayer()
     {
         DeathUI.SetActive(true);
         Cursor.lockState = CursorLockMode.None;
@@ -22,7 +22,7 @@ public class PlayerDeathMG : MonoBehaviour
     {
         if(collision.gameObject.tag == "Enemy")
         {
-            killPlayer();
+            KillPlayer();
         }
 
     }

@@ -14,11 +14,10 @@ public class ManageGS : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(Input.GetKeyDown(KeyCode.Escape));
-        {if (isPaused)
-                UnPauseGame();
+       if(Input.GetKeyDown(KeyCode.Escape))
+        if (isPaused) UnPauseGame();
          else PauseGame();
-        }
+        
     }
 
     public void UnPauseGame()
@@ -31,6 +30,7 @@ public class ManageGS : MonoBehaviour
     }
     public void PauseGame()
     {
+        PauseUI.SetActive(true);
         isPaused = true;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
