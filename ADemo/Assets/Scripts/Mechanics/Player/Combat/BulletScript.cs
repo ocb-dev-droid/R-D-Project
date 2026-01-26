@@ -13,12 +13,6 @@ public class BulletScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-      if(collision.gameObject.tag == "enemy")
-        {
-            enemyManager = collision.gameObject.GetComponent<EnemyManager>();
-            enemyManager.CastdamageEnemy();
-            Destroy(bulletobj);
-        }
-      else Destroy(bulletobj);
+        Destroy(bulletobj);
     }
 }

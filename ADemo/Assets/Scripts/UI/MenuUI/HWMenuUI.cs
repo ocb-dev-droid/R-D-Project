@@ -5,12 +5,12 @@ public class HWMenuUI : MonoBehaviour
 {
     public void TutorialButton()
     {
-        SceneManager.LoadScene("TutorialStage");
+        SceneManager.LoadSceneAsync("TutorialStage");
     }
 
     public void BackButton()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadSceneAsync("MainMenu");
     }
     public void StoreButton()
     {
@@ -19,7 +19,11 @@ public class HWMenuUI : MonoBehaviour
     
     public void AdventureModeButton()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadSceneAsync("LevelSelect");
 
+    }
+    public void ArcadeModeButton()
+    {
+        SceneManager.LoadScene("Region1");
     }
 }

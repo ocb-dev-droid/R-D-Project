@@ -214,3 +214,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyMain: {fileID: 7583105390592666809}
   StartingHealth: 0
+  shoot: {fileID: 2428260366382983421, guid: d47104d4477130f4597ee21ca4f01d2b, type: 3}

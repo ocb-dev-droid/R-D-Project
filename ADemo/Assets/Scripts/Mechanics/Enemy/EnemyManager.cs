@@ -8,10 +8,17 @@ public class EnemyManager : MonoBehaviour
     public Shoot shoot;
    public void CastdamageEnemy()
     {
+        Debug.Log("Hit");
         health = health - shoot.PlayerPWR;
     }
 
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "bullet")
+        {
+            CastdamageEnemy();
+        }
+    }
     void Start()
     {
         health = StartingHealth;
